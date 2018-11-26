@@ -1,0 +1,15 @@
+/* miniprogram/pages/home/home.wxss */
+.play-button {
+  background-color:cornflowerblue;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding-top: 10px;
+  color: white;
+  font-size: 30px;
+}
+.other-button-hover {
+  background-color: white;
+  color: cornflowerblue;
+}

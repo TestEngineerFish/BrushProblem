@@ -11,6 +11,7 @@
 	"appid": "wxa73f2795079371e0",
 	"projectname": "BrushProblem",
 	"libVersion": "2.2.5",
+	"compileType": "miniprogram",
 	"condition": {
 		"search": {
 			"current": -1,
