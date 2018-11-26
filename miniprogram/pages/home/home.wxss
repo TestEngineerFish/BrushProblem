@@ -13,3 +13,6 @@
   background-color: white;
   color: cornflowerblue;
 }
+.home_image {
+  width: 100%;
+}

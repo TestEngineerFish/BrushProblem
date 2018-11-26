@@ -27,6 +27,7 @@
       "text": "我的",
       "iconPath": "images/profile_unselect.png",
       "selectedIconPath": "images/profile_selected.png"
-    }]
+    }],
+    "selectedColor": "#6295ED"
   }
 }
