@@ -12,6 +12,7 @@
 	"projectname": "BrushProblem",
 	"libVersion": "2.2.5",
 	"compileType": "miniprogram",
+  "problemList":[],
 	"condition": {
 		"search": {
 			"current": -1,

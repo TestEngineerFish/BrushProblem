@@ -1,0 +1,10 @@
+<!--miniprogram/pages/brushProblem/brushProblem.wxml-->
+<view class='package'>
+<view class='problem-view'>
+<div class='problem-div'>{{title}}</div>
+</view>
+<view class='choose-view'>
+<button class='left-btn' type='default' size='mini' bindtap='right'>是的</button>
+<button class='right-btn' type='warn' size='mini' bindtap='left'>当然不是</button>
+</view>
+</view>

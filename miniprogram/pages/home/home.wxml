@@ -1,7 +1,11 @@
 <!--miniprogram/pages/home/home.wxml-->
-<view>
-  <image class="home_image" style="height:200px;" mode="scaleToFill" src="http://b.hiphotos.baidu.com/image/h%3D300/sign=8d92cdd953df8db1a32e7a643922dddb/0ff41bd5ad6eddc4802878ba34dbb6fd536633a0.jpg"></image>
-</view>
+<swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' circular='{{circular}}'>
+  <block wx:for="{{images}}" wx:key="*this">
+    <swiper-item>
+      <image class="home_image" style="height:200px;" mode="scaleToFill" src='{{item}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
 <!-- hover-class：为按钮按下去时的样式，指定的可在WXSS中设置样式  -->
 <button class='play-button' bindtap='play' hover-class='other-button-hover'>Go</button>
 

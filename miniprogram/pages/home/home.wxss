@@ -3,7 +3,7 @@
   background-color:cornflowerblue;
   width: 100px;
   height: 100px;
-  margin-top: 20px;
+  margin-top: 80px;
   border-radius: 50px;
   padding-top: 10px;
   color: white;
